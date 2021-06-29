@@ -27,6 +27,15 @@ class MainActivity : AppCompatActivity() {
             .setOnClickListener {
                 abrirActividad(BListView::class.java)
             }
+
+        val btnIrIntent = findViewById<Button>(
+            R.id.btn_ir_intent
+        )
+
+        btnIrIntent
+            .setOnClickListener {
+                abrirActividadConParametros(CIntentExplicitoParametros::class.java)
+            }
     }
 
     fun abrirActividad(
@@ -36,6 +45,17 @@ class MainActivity : AppCompatActivity() {
             this,
             clase
         )
+        startActivity(intentExplicito)
+    }
+
+    fun abrirActividadConParametros(clase : Class<*>){
+        val intentExplicito = Intent(
+            this,
+            clase
+        )
+        intentExplicito.putExtra("nombre","Cesar")
+        intentExplicito.putExtra("apellido","Taco")
+        intentExplicito.putExtra("edad",25)
         startActivity(intentExplicito)
     }
 }

@@ -10,8 +10,6 @@ import android.widget.AdapterView
 import android.widget.ArrayAdapter
 import android.widget.Button
 import android.widget.ListView
-import com.google.android.material.appbar.AppBarLayout
-import java.io.BufferedWriter
 
 class BListView : AppCompatActivity() {
     var posicionItemSeleccionado = 0

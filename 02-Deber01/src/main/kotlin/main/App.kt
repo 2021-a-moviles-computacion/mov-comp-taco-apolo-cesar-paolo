@@ -1,4 +1,5 @@
 package main
 
-class App {
+fun main(){
+    println("Prueba main")
 }

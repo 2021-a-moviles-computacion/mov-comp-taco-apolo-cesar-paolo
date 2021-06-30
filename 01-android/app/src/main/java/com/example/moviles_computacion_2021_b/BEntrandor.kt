@@ -18,9 +18,9 @@ class BEntrandor(
         return "${nombre} - ${descripcion}"
     }
 
-    override fun writeToParcel(parcel: Parcel, flags: Int) {
-        parcel.writeString(nombre)
-        parcel.writeString(descripcion)
+    override fun writeToParcel(parcel: Parcel?, flags: Int) {
+        parcel?.writeString(nombre)
+        parcel?.writeString(descripcion)
     }
 
     override fun describeContents(): Int {

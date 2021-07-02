@@ -9,14 +9,21 @@ class Equipo {
     val fechaFundacion : Date
     val estado : Boolean //True -> activo | False -> inactivo
     val presupuesto : Double?
+    val arregloEquipo: ArrayList<Equipo> = arrayListOf()
 
     init {
         println("Inicializando Equipo....")
+        println("Ingrese nombre del equipo: ")
         nombre = readLine().toString()
-        titulos = readLine()?.toInt()
+        println("Ingrese el # de titulos que tiene el equipo ${nombre}: ")
+        titulos = readLine()?.toInt()!!
+        println("Ingrese la fecha de fundacion del equipo ${nombre}: ")
         fechaFundacion = Date()
+        println("Ingrese (TRUE) si el equipo ${nombre} sigue activo competitivamente, (FALSE) caso contrario")
         estado = readLine().toBoolean()
-        presupuesto = readLine()?.toDouble()
+        println("Ingrese el presupuesto anual del equipo ${nombre}: ")
+        presupuesto = readLine()?.toDouble()!!
+
     }
 
     fun ingresarFecha(){
@@ -25,15 +32,14 @@ class Equipo {
     }
 
     fun crearEquipo(equipo: Equipo){
-        val crearEquipo = ArrayList<Equipo>()
-        crearEquipo.add(equipo)
-        println(equipo.toString())
+        arregloEquipo.add(equipo)
+        arregloEquipo.toString()
     }
 
-    fun leerEquipo(){
-        val leerEquipo = ArrayList<Equipo>()
-
-
+    fun leerEquipo(equipo: Equipo){
+        arregloEquipo.forEach(){
+            equipo: Equipo -> equipo.toString()
+        }
     }
 
     fun actualizarEquipo(nombreEquipo: String){
@@ -46,5 +52,9 @@ class Equipo {
         val elminarEquipo = ArrayList<Equipo>()
 
 
+    }
+
+    override fun toString(): String {
+        return super.toString()
     }
 }

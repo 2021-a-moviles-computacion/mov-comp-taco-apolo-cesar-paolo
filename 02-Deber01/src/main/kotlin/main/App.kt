@@ -2,6 +2,7 @@ package main
 
 import classes.ControlArchivo
 import classes.Equipo
+import classes.Jugador
 
 fun main(){
     menu()
@@ -27,7 +28,7 @@ fun menu() {
                     menuEquipo()
                 }
                 2 -> {
-                    //menuJugador()
+                    menuJugador()
                 }
                 0 -> {
                     println("Saliendo del programa.......")
@@ -79,6 +80,57 @@ fun menuEquipo() {
                 4 -> {
                     val consulta = readLine().toString()
                     equipo.eliminarEquipo()
+                }
+                0 -> {
+                    println("Regresando menu principal ....")
+                    break
+                }
+                else -> println("Ingrese un dato valido...")
+            }
+        } catch (e: Exception) {
+            println("Error desconocido ....")
+        }
+    }
+
+}
+
+fun menuJugador() {
+
+    var jugador = Jugador()
+    var ctrlArchivo = ControlArchivo()
+    var eleccion = -1
+    while (eleccion != 0) {
+        try {
+            println(
+                """
+                     --- MENÚ DE JUGADORES ---
+     1.- Crear Jugador
+     2.- Leer Jugadores Existentes
+     3.- Actualizar Jugador por nombre
+     4.- Eliminar Jugador por nombre
+     0.- Regresar al menú principal
+     Elija una opción:
+                 """.trimIndent()
+            )
+            val opc = readLine()?.toInt()
+            when (opc) {
+
+                1 -> {
+                    jugador.setJugador()
+                    jugador.crearJugador(jugador)
+                    ctrlArchivo.writeJugador(jugador)
+                }
+                2 -> {
+                    jugador.leerJugador(jugador)
+                    ctrlArchivo.readEquipo()
+                }
+                3 -> {
+                    val consulta = readLine().toString()
+                    jugador.actualizarJugador(jugador,consulta)
+                }
+                4 -> {
+                    val consulta = readLine().toString()
+                    jugador.eliminarJugador()
                 }
                 0 -> {
                     println("Regresando menu principal ....")

@@ -6,7 +6,7 @@ import kotlin.collections.ArrayList
 class Equipo {
     val nombre : String
     val titulos : Int?
-    val fechaFundacion : Date
+    val fechaRegistro : Date
     val estado : Boolean //True -> activo | False -> inactivo
     val presupuesto : Double?
     val arregloEquipo: ArrayList<Equipo> = arrayListOf()
@@ -17,13 +17,11 @@ class Equipo {
         nombre = readLine().toString()
         println("Ingrese el # de titulos que tiene el equipo ${nombre}: ")
         titulos = readLine()?.toInt()!!
-        println("Ingrese la fecha de fundacion del equipo ${nombre}: ")
-        fechaFundacion = Date()
+        fechaRegistro = Date()
         println("Ingrese (TRUE) si el equipo ${nombre} sigue activo competitivamente, (FALSE) caso contrario")
         estado = readLine().toBoolean()
         println("Ingrese el presupuesto anual del equipo ${nombre}: ")
         presupuesto = readLine()?.toDouble()!!
-
     }
 
     fun ingresarFecha(){
@@ -33,19 +31,33 @@ class Equipo {
 
     fun crearEquipo(equipo: Equipo){
         arregloEquipo.add(equipo)
-        arregloEquipo.toString()
+        //println(arregloEquipo)
+        //equipo.toString()
     }
 
     fun leerEquipo(equipo: Equipo){
-        arregloEquipo.forEach(){
-            equipo: Equipo -> equipo.toString()
-        }
+        if (arregloEquipo != null){
+            arregloEquipo.forEach(){
+                    equipo: Equipo -> println(equipo)
+            }
+        }else
+            println("No existen equipos creados aún....")
+
+        //println(equipo)
     }
 
-    fun actualizarEquipo(nombreEquipo: String){
+    fun actualizarEquipo(equipo: Equipo, nombreEquipo: String){
         val actualizarEquipo = ArrayList<Equipo>()
+        val filteredList = ArrayList<Equipo>()
 
-
+        arregloEquipo.forEach(){ equipo: Equipo ->
+            if (equipo.nombre ==  nombreEquipo){
+                filteredList.add(equipo)
+                println(filteredList)
+            }else{
+                println("Equipo no encontrado")
+            }
+        }
     }
 
     fun eliminarEquipo(){
@@ -55,6 +67,7 @@ class Equipo {
     }
 
     override fun toString(): String {
-        return super.toString()
+        return "\nEquipo: ${nombre} \nTitulos: ${titulos}\nFecha Registro: ${fechaRegistro}" +
+                "\nActivo: ${estado} \nPresupuesto: ${presupuesto}\n"
     }
 }

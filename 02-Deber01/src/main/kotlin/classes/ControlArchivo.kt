@@ -10,14 +10,14 @@ class ControlArchivo {
         val file = File(pathEquipo)
         println("Equipos existentes en archivo:")
         file.forEachLine { println(it) }
-        println("------------------------------- FIN ARCHIVO ---------------------------------------")
+        println("------------------------------- EOF ---------------------------------------")
     }
 
     fun readJugador() {
         val file = File(pathJugador)
         println("Jugadores existentes en archivo:")
         file.forEachLine { println(it) }
-        println("------------------------------- FIN ARCHIVO ---------------------------------------")
+        println("------------------------------- EOF ---------------------------------------")
     }
 
     fun writeEquipo(equipo: Equipo) {

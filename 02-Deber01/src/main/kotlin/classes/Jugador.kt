@@ -35,6 +35,8 @@ class Jugador {
 
     fun leerJugador(jugador: Jugador){
         println("Equipos existentes en arreglo")
+        val archivo = ControlArchivo()
+        val res = archivo.readJugador().toString()
         if (arregloJugador != null){
             arregloJugador.forEach(){
                     jugador: Jugador -> println(jugador)

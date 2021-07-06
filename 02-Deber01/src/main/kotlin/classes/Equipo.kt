@@ -67,7 +67,7 @@ class Equipo {
     }
 
     override fun toString(): String {
-        return "Equipo: ${nombre};Titulos: ${titulos};Fecha Registro: ${fechaRegistro}" +
+        return "\nEquipo: ${nombre};Titulos: ${titulos};Fecha Registro: ${fechaRegistro}" +
                 ";Activo: ${estado};Presupuesto: ${presupuesto}"
     }
 }

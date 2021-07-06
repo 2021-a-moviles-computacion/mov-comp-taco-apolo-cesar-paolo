@@ -4,15 +4,18 @@ import java.util.*
 import kotlin.collections.ArrayList
 
 class Equipo {
-    val nombre : String
-    val titulos : Int?
-    val fechaRegistro : Date
-    val estado : Boolean //True -> activo | False -> inactivo
-    val presupuesto : Double?
-    val arregloEquipo: ArrayList<Equipo> = arrayListOf()
+    var nombre : String = ""
+    var titulos : Int? = 0
+    var fechaRegistro : Date = Date()
+    var estado : Boolean = false//True -> activo | False -> inactivo
+    var presupuesto : Double? = 0.0
+    var arregloEquipo: ArrayList<Equipo> = arrayListOf()
 
     init {
         println("Inicializando Equipo....")
+    }
+
+    fun setEquipo(){
         println("Ingrese nombre del equipo: ")
         nombre = readLine().toString()
         println("Ingrese el # de titulos que tiene el equipo ${nombre}: ")
@@ -24,11 +27,6 @@ class Equipo {
         presupuesto = readLine()?.toDouble()!!
     }
 
-    fun ingresarFecha(){
-        val date : Date
-
-    }
-
     fun crearEquipo(equipo: Equipo){
         arregloEquipo.add(equipo)
         //println(arregloEquipo)
@@ -36,6 +34,7 @@ class Equipo {
     }
 
     fun leerEquipo(equipo: Equipo){
+        println("Equipos existentes en arreglo")
         if (arregloEquipo != null){
             arregloEquipo.forEach(){
                     equipo: Equipo -> println(equipo)
@@ -54,6 +53,7 @@ class Equipo {
             if (equipo.nombre ==  nombreEquipo){
                 filteredList.add(equipo)
                 println(filteredList)
+
             }else{
                 println("Equipo no encontrado")
             }
@@ -67,7 +67,7 @@ class Equipo {
     }
 
     override fun toString(): String {
-        return "\nEquipo: ${nombre} \nTitulos: ${titulos}\nFecha Registro: ${fechaRegistro}" +
-                "\nActivo: ${estado} \nPresupuesto: ${presupuesto}\n"
+        return "Equipo: ${nombre};Titulos: ${titulos};Fecha Registro: ${fechaRegistro}" +
+                ";Activo: ${estado};Presupuesto: ${presupuesto}"
     }
 }

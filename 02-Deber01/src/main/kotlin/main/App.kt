@@ -14,10 +14,11 @@ fun menu() {
         try {
             println(
                 """
-                     Elija una opción:
+                    CRUD - EQUIPO - JUGADOR
                  1.- Gestión de Equipos
                  2.- Gestión de Jugadores
                  0.- Salir
+                 Elija una opción:
                  """.trimIndent()
             )
             val opc = readLine()?.toInt()
@@ -28,7 +29,10 @@ fun menu() {
                 2 -> {
                     //menuJugador()
                 }
-                0 -> println("Saliendo del programa.......")
+                0 -> {
+                    println("Saliendo del programa.......")
+                    break
+                }
                 else -> println("Ingrese un dato valido ...")
             }
         } catch (e: Exception) {
@@ -40,7 +44,7 @@ fun menu() {
 
 fun menuEquipo() {
 
-    var equipo: Equipo = Equipo()
+    var equipo = Equipo()
     var ctrlArchivo = ControlArchivo()
     var eleccion = -1
     while (eleccion != 0) {
@@ -48,35 +52,38 @@ fun menuEquipo() {
             println(
                 """
                      --- MENÚ DE EQUIPOS ---
-        Elija una opción:
      1.- Crear Equipo
      2.- Leer Equipos Existentes
      3.- Actualizar Equipo por nombre
      4.- Eliminar Equipo por nombre
      0.- Regresar al menú principal
+     Elija una opción:
                  """.trimIndent()
             )
             val opc = readLine()?.toInt()
             when (opc) {
+
                 1 -> {
+                    equipo.setEquipo()
                     equipo.crearEquipo(equipo)
-                    var salida = equipo.leerEquipo(equipo).toString()
-                    ctrlArchivo.write(salida)
-                    ctrlArchivo.read()
+                    ctrlArchivo.writeEquipo(equipo)
                 }
                 2 -> {
-                    println("Equipos Existentes en arreglo")
                     equipo.leerEquipo(equipo)
-                    println("Equipos Existentes en Archivo")
-                    ctrlArchivo.read()
+                    ctrlArchivo.readEquipo()
                 }
                 3 -> {
                     val consulta = readLine().toString()
+                    equipo.actualizarEquipo(equipo,consulta)
                 }
                 4 -> {
-
+                    val consulta = readLine().toString()
+                    equipo.eliminarEquipo()
                 }
-                0 -> menu()
+                0 -> {
+                    println("Regresando menu principal ....")
+                    break
+                }
                 else -> println("Ingrese un dato valido...")
             }
         } catch (e: Exception) {

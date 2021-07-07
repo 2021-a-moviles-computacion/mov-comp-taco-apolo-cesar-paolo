@@ -1,1 +1,1 @@
--------- JUGADOR -----------Jugador: Cesar;Salario: 1000.0;Fecha Registro: Tue Jul 06 23:22:32 COT 2021;Activo: true;Logros Personales: 5Jugador: Mateo;Salario: 2000.0;Fecha Registro: Tue Jul 06 23:22:48 COT 2021;Activo: false;Logros Personales: 8
+-------- JUGADOR -----------

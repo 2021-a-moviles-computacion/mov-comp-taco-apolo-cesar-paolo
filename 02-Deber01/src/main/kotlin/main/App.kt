@@ -74,11 +74,18 @@ fun menuEquipo() {
                     ctrlArchivo.readEquipo()
                 }
                 3 -> {
-                    val consulta = readLine().toString()
-                    equipo.actualizarEquipo(equipo,consulta)
+                    println("Listado de Equipos:")
+                    ctrlArchivo.readEquipo()
+                    println("Ingrese el nombre del equipo a actualizar")
+                    val nombre = readLine().toString()
+                    println("Ingrese el atributo del Equipo ${nombre} que desea actualizar")
+                    val datoAModificar = readLine().toString()
+                    println("Ingrese el nuevo valor del atributo ${datoAModificar}")
+                    val nuevoValor = readLine().toString()
+                    equipo.actualizarEquipo(nombre,datoAModificar,nuevoValor)
                 }
                 4 -> {
-                    val consulta = readLine().toString()
+                    //val consulta = readLine().toString()
                     equipo.eliminarEquipo()
                 }
                 0 -> {
@@ -125,11 +132,18 @@ fun menuJugador() {
                     ctrlArchivo.readEquipo()
                 }
                 3 -> {
-                    val consulta = readLine().toString()
-                    jugador.actualizarJugador(jugador,consulta)
+                    println("Listado de Jugadores:")
+                    ctrlArchivo.readEquipo()
+                    println("Ingrese el nombre del jugador a actualizar")
+                    val nombre = readLine().toString()
+                    println("Ingrese el atributo del Jugador ${nombre} que desea actualizar")
+                    val datoAModificar = readLine().toString()
+                    println("Ingrese el nuevo valor del atributo ${datoAModificar}")
+                    val nuevoValor = readLine().toString()
+                    jugador.actualizarJugador(nombre,datoAModificar,nuevoValor)
                 }
                 4 -> {
-                    val consulta = readLine().toString()
+                    //val consulta = readLine().toString()
                     jugador.eliminarJugador()
                 }
                 0 -> {

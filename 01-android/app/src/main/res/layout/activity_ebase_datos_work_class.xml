@@ -97,4 +97,14 @@
         app:layout_constraintStart_toStartOf="@+id/btn_crearUsuario"
         app:layout_constraintTop_toBottomOf="@+id/btn_crearUsuario" />
 
+    <Button
+        android:id="@+id/btn_crear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="CREAR"
+        app:layout_constraintBottom_toTopOf="@+id/txt_consulta"
+        app:layout_constraintEnd_toEndOf="@+id/txt_consulta"
+        app:layout_constraintStart_toStartOf="@+id/txt_consulta" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

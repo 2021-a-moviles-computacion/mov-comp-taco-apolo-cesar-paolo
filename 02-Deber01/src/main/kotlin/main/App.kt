@@ -129,11 +129,11 @@ fun menuJugador() {
                 }
                 2 -> {
                     jugador.leerJugador(jugador)
-                    ctrlArchivo.readEquipo()
+                    ctrlArchivo.readJugador()
                 }
                 3 -> {
                     println("Listado de Jugadores:")
-                    ctrlArchivo.readEquipo()
+                    ctrlArchivo.readJugador()
                     println("Ingrese el nombre del jugador a actualizar")
                     val nombre = readLine().toString()
                     println("Ingrese el atributo del Jugador ${nombre} que desea actualizar")

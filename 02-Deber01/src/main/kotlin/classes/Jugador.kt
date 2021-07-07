@@ -107,7 +107,7 @@ class Jugador {
     }
 
     override fun toString(): String {
-        return "Jugador: ${nombre};Salario: ${salario};Fecha Registro: ${fechaRegistro}" +
+        return "\nJugador: ${nombre};Salario: ${salario};Fecha Registro: ${fechaRegistro}" +
                 ";Activo: ${estado};Logros Personales: ${logrosPersonales}"
     }
 }

@@ -47,25 +47,63 @@ class Jugador {
         //println(equipo)
     }
 
-    fun actualizarJugador(jugador: Jugador, nombreJugador: String){
-        val actualizarJugador = ArrayList<Jugador>()
-        val filteredList = ArrayList<Jugador>()
+    fun actualizarJugador(
+        nombre: String,
+        datoEditar: String,
+        nuevoDato: String
+    ) {
 
-        arregloJugador.forEach(){ jugador: Jugador ->
-            if (jugador.nombre ==  nombreJugador){
-                filteredList.add(jugador)
-                println(filteredList)
-
-            }else{
-                println("Equipo no encontrado")
+        val indice = indice(nombre)
+        val jugador = indice > -1
+        if (jugador) {
+            when (datoEditar) {
+                "nombre" -> {
+                    arregloJugador[indice].nombre = nuevoDato
+                }
+                "salario" -> {
+                    arregloJugador[indice].salario = nuevoDato.toDouble()
+                }
+                "estado" -> {
+                    arregloJugador[indice].estado = nuevoDato.toBoolean()
+                }
+                "logrosPersonales" -> {
+                    arregloJugador[indice].logrosPersonales = nuevoDato.toInt()
+                }
+                else -> {
+                    println("No se encontro el Jugador ${datoEditar}")
+                }
             }
         }
+        println("Equipos Actualizados:")
+        println("$arregloJugador")
+    }
+
+    fun indice(nombre: String): Int {
+        val respuesta = arregloJugador.filter { jugador: Jugador ->
+            return@filter jugador.nombre == nombre
+        }
+        val jugador = respuesta.isNotEmpty()
+        if (!jugador) {
+            println("No existe el Jugador ${nombre}")
+            return -1
+        }
+        return arregloJugador.indexOf(respuesta[0])
     }
 
     fun eliminarJugador(){
         val elminarJugador = ArrayList<Jugador>()
-
-
+        println("Listado de Jugadores: \n$arregloJugador")
+        println("Ingrese el nombre del Equipo a eliminar:")
+        val consulta = readLine().toString()
+        arregloJugador.forEach { jugador ->
+            if (jugador.nombre == consulta) {
+                arregloJugador.remove(jugador)
+                println("Equipos actualizados")
+                println("$arregloJugador")
+            } else if (jugador.nombre != consulta) {
+                println("No se encuentra el jugador ${nombre}")
+            }
+        }
     }
 
     override fun toString(): String {

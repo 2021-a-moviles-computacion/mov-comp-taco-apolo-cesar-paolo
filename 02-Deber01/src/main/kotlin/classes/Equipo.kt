@@ -45,25 +45,63 @@ class Equipo {
         //println(equipo)
     }
 
-    fun actualizarEquipo(equipo: Equipo, nombreEquipo: String){
-        val actualizarEquipo = ArrayList<Equipo>()
-        val filteredList = ArrayList<Equipo>()
+    fun actualizarEquipo(
+            nombre: String,
+            datoEditar: String,
+            nuevoDato: String
+        ) {
 
-        arregloEquipo.forEach(){ equipo: Equipo ->
-            if (equipo.nombre ==  nombreEquipo){
-                filteredList.add(equipo)
-                println(filteredList)
-
-            }else{
-                println("Equipo no encontrado")
+            val indice = indice(nombre)
+            val equipo = indice > -1
+            if (equipo) {
+                when (datoEditar) {
+                    "nombre" -> {
+                        arregloEquipo[indice].nombre = nuevoDato
+                    }
+                    "titulos" -> {
+                        arregloEquipo[indice].titulos = nuevoDato.toInt()
+                    }
+                    "estado" -> {
+                        arregloEquipo[indice].estado = nuevoDato.toBoolean()
+                    }
+                    "presupuesto" -> {
+                        arregloEquipo[indice].presupuesto = nuevoDato.toDouble()
+                    }
+                    else -> {
+                    println("No se encontro el Equipo ${datoEditar}")
+                    }
+                }
             }
+            println("Equipos Actualizados:")
+            println("$arregloEquipo")
+    }
+
+    fun indice(nombre: String): Int {
+        val respuesta = arregloEquipo.filter { equipo: Equipo ->
+            return@filter equipo.nombre == nombre
         }
+        val equipo = respuesta.size > 0
+        if (!equipo) {
+            println("No existe el Equipo ${nombre}")
+            return -1
+        }
+        return arregloEquipo.indexOf(respuesta[0])
     }
 
     fun eliminarEquipo(){
         val elminarEquipo = ArrayList<Equipo>()
-
-
+        println("Listado de Equipos: \n$arregloEquipo")
+        println("Ingrese el nombre del Equipo a eliminar:")
+        val consulta = readLine().toString()
+        arregloEquipo.forEach { equipo ->
+            if (equipo.nombre == consulta) {
+                arregloEquipo.remove(equipo)
+                println("Equipos actualizados")
+                println("$arregloEquipo")
+            } else if (equipo.nombre != consulta) {
+                println("No se encuentra el Equipo ${nombre}")
+            }
+        }
     }
 
     override fun toString(): String {

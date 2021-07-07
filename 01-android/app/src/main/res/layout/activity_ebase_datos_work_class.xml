@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EBaseDatosWorkClass">
+
+    <Button
+        android:id="@+id/btn_eliminarUsuario"
+        android:layout_width="144dp"
+        android:layout_height="50dp"
+        android:text="Eliminar"
+        app:layout_constraintEnd_toEndOf="@+id/btn_actualizarUsuario"
+        app:layout_constraintStart_toStartOf="@+id/btn_actualizarUsuario"
+        app:layout_constraintTop_toBottomOf="@+id/btn_actualizarUsuario" />
+
+    <Button
+        android:id="@+id/btn_consulUsuario"
+        android:layout_width="144dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="24dp"
+        android:text="consultar"
+        app:layout_constraintEnd_toEndOf="@+id/txt_consulta"
+        app:layout_constraintStart_toStartOf="@+id/txt_consulta"
+        app:layout_constraintTop_toBottomOf="@+id/txt_consulta" />
+
+    <Button
+        android:id="@+id/btn_actualizarUsuario"
+        android:layout_width="144dp"
+        android:layout_height="50dp"
+        android:text="actualizar"
+        app:layout_constraintEnd_toEndOf="@+id/btn_consulUsuario"
+        app:layout_constraintStart_toStartOf="@+id/btn_consulUsuario"
+        app:layout_constraintTop_toBottomOf="@+id/btn_consulUsuario" />
+
+    <Button
+        android:id="@+id/btn_crearUsuario"
+        android:layout_width="144dp"
+        android:layout_height="50dp"
+        android:text="crear"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.377" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="229dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Base de Datos - USUARIO"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.064" />
+
+    <EditText
+        android:id="@+id/txt_nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="cesar"
+        app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName"
+        app:layout_constraintHorizontal_bias="0.578"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+
+    <EditText
+        android:id="@+id/txt_descripcion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="estudiante"
+        app:layout_constraintEnd_toEndOf="@+id/txt_nombre"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/txt_nombre"
+        app:layout_constraintTop_toBottomOf="@+id/txt_nombre" />
+
+    <EditText
+        android:id="@+id/txt_consulta"
+        android:layout_width="150dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="60dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="1"
+        app:layout_constraintEnd_toEndOf="@+id/btn_crearUsuario"
+        app:layout_constraintStart_toStartOf="@+id/btn_crearUsuario"
+        app:layout_constraintTop_toBottomOf="@+id/btn_crearUsuario" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

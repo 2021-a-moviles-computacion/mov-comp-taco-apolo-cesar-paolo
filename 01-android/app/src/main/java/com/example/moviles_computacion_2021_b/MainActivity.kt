@@ -17,6 +17,17 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        //EBaseDatos.tablaUsuario = ESqliteHelperUsuario(this)
+
+        val btnBDD = findViewById<Button>(
+            R.id.btn_bdd
+        )
+
+        btnBDD
+            .setOnClickListener{
+                abrirActividad(EBaseDatosWorkClass::class.java)
+            }
+
         val btnIrCicloVida = findViewById<Button>(
             R.id.btn_ciclo_vida
         )

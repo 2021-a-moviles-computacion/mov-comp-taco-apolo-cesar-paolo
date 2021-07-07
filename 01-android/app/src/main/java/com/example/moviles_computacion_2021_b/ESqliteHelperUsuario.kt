@@ -74,6 +74,42 @@ class ESqliteHelperUsuario(
 
     }
 
+    fun eliminarUsuarioFormulario(id: Int): Boolean{
+        val conexionEscritura = writableDatabase
+        val resultadoEliminacion = conexionEscritura
+            .delete(
+                "USUARIO",
+                "id=?",
+                arrayOf(
+                    id.toString()
+                )
+            )
+        conexionEscritura.close()
+        return if (resultadoEliminacion.toInt() == -1) false else true
+    }
+
+    fun actualizarUsuarioFormulario(
+        nombre: String,
+        descripcion: String,
+        idActualizar: Int
+    ):Boolean{
+        val conexionEscritura = writableDatabase
+        val valoresActualizar = ContentValues()
+        valoresActualizar.put("nombre", nombre)
+        valoresActualizar.put("descripcion", descripcion)
+        val resActualizacion = conexionEscritura
+            .update(
+                "USUARIO",
+                valoresActualizar,
+                "id=?",
+                arrayOf(
+                    idActualizar.toString()
+                )
+            )
+        conexionEscritura.close()
+        return if (resActualizacion == -1) false else true
+    }
+
     override fun onUpgrade(db: SQLiteDatabase?, oldVersion: Int, newVersion: Int) {
 
 

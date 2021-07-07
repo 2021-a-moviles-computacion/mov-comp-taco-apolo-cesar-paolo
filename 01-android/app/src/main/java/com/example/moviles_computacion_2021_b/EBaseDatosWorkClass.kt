@@ -5,7 +5,6 @@ import android.os.Bundle
 import android.util.Log
 import android.widget.Button
 import android.widget.EditText
-import androidx.core.view.isInvisible
 
 class EBaseDatosWorkClass : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -35,7 +34,7 @@ class EBaseDatosWorkClass : AppCompatActivity() {
             R.id.btn_eliminarUsuario
         )
 
-        val btnC = findViewById<Button>(R.id.btn_crear)
+        //val btnC = findViewById<Button>(R.id.btn_crear)
 
         btnCrearUsuario.setOnClickListener{
             if (EBaseDatos.tablaUsuario != null) {
@@ -46,21 +45,9 @@ class EBaseDatosWorkClass : AppCompatActivity() {
                 Log.i("bdd",
                     "usuario ${txtNombre.text} creado")
             }
-            txtNombre.isInvisible
         }
 
-        btnC.setOnClickListener{
-            if(EBaseDatos.tablaUsuario!=null){
-
-                EBaseDatos.tablaUsuario!!.crearUsuarioFormulario(
-                    txtNombre.text.toString(),
-                    txtDescrip.text.toString()
-                )
-                Log.i("bdd", "creacion usuario ${txtNombre.text} ")
-            }
-        }
-
-        btnConsultarUsuario.setOnClickListener{
+       btnConsultarUsuario.setOnClickListener{
             if (EBaseDatos.tablaUsuario != null){
                 EBaseDatos.tablaUsuario!!
                     .consultarUsuarioPorID(txtConsul.text.toString().toInt())

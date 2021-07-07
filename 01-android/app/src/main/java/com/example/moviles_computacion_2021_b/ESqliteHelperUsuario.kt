@@ -17,9 +17,10 @@ class ESqliteHelperUsuario(
     override fun onCreate(db: SQLiteDatabase?) {
 
         val scriptCrearTablaUsuario = """
-            CREATE TABLE USUARIO(id INTEGER PRIMARY KEY AUTOINCREMENT,
+            CREATE TABLE USUARIO(
+                id INTEGER PRIMARY KEY AUTOINCREMENT,
                 nombre VARCHAR(50),
-                descripcion VARCHAR(50)              
+                descripcion VARCHAR(50))              
         """.trimIndent()
 
         Log.i("bdd", "Creando Tabla Usuario")

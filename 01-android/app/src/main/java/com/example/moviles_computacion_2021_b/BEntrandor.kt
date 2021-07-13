@@ -5,7 +5,8 @@ import android.os.Parcelable
 
 class BEntrandor(
     val nombre: String?,
-    val descripcion: String?
+    val descripcion: String?,
+    val liga: DLiga? = null
 ) :Parcelable {
 
     constructor(parcel: Parcel) : this(

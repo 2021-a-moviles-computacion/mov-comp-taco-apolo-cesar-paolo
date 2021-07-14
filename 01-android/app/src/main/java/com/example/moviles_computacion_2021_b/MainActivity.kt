@@ -70,6 +70,15 @@ class MainActivity : AppCompatActivity() {
                 CODIGO_RESPUESTA_INTENT_IMPLICITO)
             }
 
+        val bntAbriRecView = findViewById<Button>(
+            R.id.btn_recycler_view
+        )
+
+        bntAbriRecView
+            .setOnClickListener{
+                abrirActividad(GRecyclerView::class.java)
+            }
+
     }
 
     fun abrirActividad(

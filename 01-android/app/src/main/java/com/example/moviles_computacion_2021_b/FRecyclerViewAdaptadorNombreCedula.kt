@@ -8,7 +8,7 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 
 class FRecyclerViewAdaptadorNombreCedula(
-    private val contexto: Class<*>,
+    private val contexto: GRecyclerView,
     private val listaEntrenador: List<BEntrandor>,
     private val recyclerView: RecyclerView
 ): RecyclerView.Adapter<FRecyclerViewAdaptadorNombreCedula.MyViewHolder>() {
@@ -33,6 +33,7 @@ class FRecyclerViewAdaptadorNombreCedula(
         fun anadirLike(){
             numeroLikes = numeroLikes + 1
             likesTextView.text = numeroLikes.toString()
+            contexto.aumentarTotalLikes()
         }
 
     }

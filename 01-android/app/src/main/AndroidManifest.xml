@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Movilescomputacion2021b">
-        <activity android:name=".EBaseDatosWorkClass"></activity>
+        <activity android:name=".GRecyclerView"></activity>
+        <activity android:name=".EBaseDatosWorkClass" />
         <activity android:name=".CIntentExplicitoParametros" />
         <activity android:name=".BListView">
             <intent-filter>

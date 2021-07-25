@@ -43,7 +43,7 @@ class HHttpActivity : AppCompatActivity() {
 
     private fun metodoPOST() {
         val parametros: List<Pair<String, *>> = listOf(
-            "tittle" to "Titulo Moviles",
+            "title" to "Titulo Moviles",
             "body" to "descripcion moviles",
             "userId" to 1
         )

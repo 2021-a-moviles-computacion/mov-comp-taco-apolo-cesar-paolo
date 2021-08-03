@@ -6,7 +6,7 @@ class EMusico(
     var birthday: String,
     var p_awards: String,
     var ocup: String,
-    var activity: String
+    var activity_m: String
 ) {
     companion object{
         fun getAutoID(): Int{

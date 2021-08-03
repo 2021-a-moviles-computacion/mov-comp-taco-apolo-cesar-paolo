@@ -33,7 +33,7 @@ class FMusicoAdapter: RecyclerView.Adapter<FMusicoAdapter.MusicianViewHolder>() 
         private var birthday = view.findViewById<TextView>(R.id.tv_birthday)
         private var p_awards = view.findViewById<TextView>(R.id.tv_p_awards)
         private var ocup = view.findViewById<TextView>(R.id.tv_ocup)
-        private var activity = view.findViewById<TextView>(R.id.tv_funds)
+        private var activity_M = view.findViewById<TextView>(R.id.tv_activity)
         var deleteButton = view.findViewById<Button>(R.id.deleteMusicianButton)
 
         fun bindMusicView(msc: EMusico) {
@@ -41,7 +41,7 @@ class FMusicoAdapter: RecyclerView.Adapter<FMusicoAdapter.MusicianViewHolder>() 
             birthday.text = msc.birthday
             p_awards.text = msc.p_awards
             ocup.text = msc.ocup
-            activity.text = msc.activity
+            activity_M.text = msc.activity_m
         }
 
     }
@@ -49,7 +49,7 @@ class FMusicoAdapter: RecyclerView.Adapter<FMusicoAdapter.MusicianViewHolder>() 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MusicianViewHolder {
         return MusicianViewHolder(
             LayoutInflater.from(parent.context)
-                .inflate(R.layout.band_recyclerview_list, parent, false)
+                .inflate(R.layout.musician_recyclerview_list, parent, false)
         )
     }
 

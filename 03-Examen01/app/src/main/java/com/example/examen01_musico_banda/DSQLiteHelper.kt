@@ -40,6 +40,7 @@ class DSQLiteHelper(context: Context?
         db?.execSQL(CConstantesDB.CREATE_TABLE_BAND)
         db?.execSQL(CConstantesDB.CREATE_TABLE_MUSICIAN)
         Log.i("banda", "Creando Tabla BANDA")
+        Log.i("musico", "Creando Tabla MUSICO")
     }
 
     fun insertBand(bnd: EBanda): Long{
@@ -63,12 +64,12 @@ class DSQLiteHelper(context: Context?
 
         val db =  this.writableDatabase
         val contentValues = ContentValues()
-        contentValues.put(ID, msc.id)
+        contentValues.put(ID_M, msc.id)
         contentValues.put(M_NAME, msc.name)
         contentValues.put(M_BIRTH, msc.birthday)
         contentValues.put(P_Awards, msc.p_awards)
         contentValues.put(OCUP, msc.ocup)
-        contentValues.put(ACT, msc.activity)
+        contentValues.put(ACT, msc.activity_m)
 
         val success = db.insert(TABLE_MUSIC_NAME, null, contentValues)
         db.close()
@@ -191,12 +192,12 @@ class DSQLiteHelper(context: Context?
         val db = this.writableDatabase
 
         val contentValues = ContentValues()
-        contentValues.put(ID, msc.id)
+        contentValues.put(ID_M, msc.id)
         contentValues.put(NAME, msc.name)
         contentValues.put(M_BIRTH, msc.birthday)
         contentValues.put(P_Awards, msc.p_awards)
         contentValues.put(OCUP, msc.ocup)
-        contentValues.put(ACT, msc.activity)
+        contentValues.put(ACT, msc.activity_m)
 
         val success = db.update(
             TABLE_MUSIC_NAME,
@@ -230,7 +231,7 @@ class DSQLiteHelper(context: Context?
 
         val contentValues = ContentValues()
 
-        contentValues.put(ID, id)
+        contentValues.put(ID_M, id)
 
         val success = db.delete(TABLE_MUSIC_NAME, "ID=$id", null)
         db.close()

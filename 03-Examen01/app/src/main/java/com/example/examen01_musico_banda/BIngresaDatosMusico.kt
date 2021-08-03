@@ -34,14 +34,14 @@ class BIngresaDatosMusico : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_bingresar_datos_banda)
+        setContentView(R.layout.activity_bingresa_datos_musico)
 
         initView()
         initRecyclerView()
 
         db = DSQLiteHelper(this)
 
-        btnIngresarMusicInfo = findViewById(R.id.addButton)
+        btnIngresarMusicInfo = findViewById(R.id.addMusicButton)
 
         btnIngresarMusicInfo.setOnClickListener { addMusician() }
 
@@ -56,7 +56,7 @@ class BIngresaDatosMusico : AppCompatActivity() {
             birthdayEt.setText(it.birthday)
             p_awardsEt.setText(it.p_awards)
             ocupacionEt.setText(it.ocup)
-            activityEt.setText(it.activity)
+            activityEt.setText(it.activity_m)
 
             msc = it
 
@@ -82,7 +82,7 @@ class BIngresaDatosMusico : AppCompatActivity() {
         val act = activityEt.text.toString()
 
         if (name == msc?.name && birthday == msc?.birthday && p_awards == msc?.p_awards &&
-            ocup == msc?.ocup && act == msc?.activity){
+            ocup == msc?.ocup && act == msc?.activity_m){
             Toast.makeText(this, "Registro sin alterar", Toast.LENGTH_SHORT).show()
             return
         }
@@ -173,7 +173,7 @@ class BIngresaDatosMusico : AppCompatActivity() {
                 birthday = birthday,
                 p_awards = p_awards,
                 ocup = ocup,
-                activity = act
+                activity_m = act
             )
             val status = db.insertMusico(msc)
 

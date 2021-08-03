@@ -5,13 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="10dp"
-    tools:context=".BIngresarDatosBanda"
+    tools:context=".BIngresaDatosMusico"
     android:orientation="vertical">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/displayText"
+        android:id="@+id/displayTextM"
         android:text="Ingresar Información del Músico"
         android:gravity="center"
         android:layout_alignParentTop="true"
@@ -24,7 +24,7 @@
         android:id="@+id/MusicDefaultImage"
         android:layout_width="62dp"
         android:layout_height="53dp"
-        android:layout_below="@id/displayText"
+        android:layout_below="@id/displayTextM"
         android:layout_centerHorizontal="true"
         android:layout_gravity="center"
         android:src="@drawable/ic_baseline_band_image" />

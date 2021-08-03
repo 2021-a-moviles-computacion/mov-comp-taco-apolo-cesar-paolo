@@ -36,7 +36,7 @@ object CConstantesDB {
 
     const val CREATE_TABLE_MUSICIAN = ("CREATE TABLE " + TABLE_NAME_MUSICIAN + " ("
             + M_ID + " INTEGER PRIMARY KEY AUTOINCREMENT,"
-            + FKB_ID + " INTEGER,"
+            //+ FKB_ID + " INTEGER,"
             + M_NAME + " VARCHAR(50),"
             + M_BIRTHDAY + " VARCHAR(50),"
             + M_PERSONAL_AWARDS + " VARCHAR(50),"

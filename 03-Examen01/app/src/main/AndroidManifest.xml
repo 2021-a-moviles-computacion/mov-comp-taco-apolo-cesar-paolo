@@ -9,6 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Examen01_Musico_Banda">
+        <activity android:name=".BIngresaDatosMusico"></activity>
+        <activity android:name=".BIngresarDatosBanda" />
+        <activity android:name=".ABandaActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

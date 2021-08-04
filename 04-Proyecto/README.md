@@ -17,3 +17,10 @@
 3. HU
 
     Link: https://epnecuador-my.sharepoint.com/:w:/g/personal/gabriel_vivas_epn_edu_ec/EYAS1cmmfxpGi4CaWPw3zssBF5dLw-qq92AIJzAVcXeR0A?e=zvsZku 
+
+### BOSQUEJO BASE DE DATOS NO RELACIONALES 
+#### FIREBASE - FIRESTORE
+
+![image](https://user-images.githubusercontent.com/34403342/128249117-6f5a1730-efa9-41e1-a1f5-8bf6f5b8a364.png)
+
+

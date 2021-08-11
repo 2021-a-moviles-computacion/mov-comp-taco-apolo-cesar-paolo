@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Amazonn</string>
+    <string name="product_image">Product Image</string>
+    <string name="product_name">ProductName</string>
+    <string name="price">Price</string>
+    <string name="shopping_cart">Shopping Cart</string>
+    <string name="search">search</string>
+    <string name="product_description">Product Description</string>
+    <string name="product_description_data">Product Description Data</string>
+    <string name="buy_button">BUY</string>
+    <string name="search_here">Search Here</string>
+    <string name="remove_button">REMOVE</string>
+    <string name="reviews">Reviews</string>
+    <string name="review_heading">Review Heading</string>
+    <string name="write_review">Write Review Here</string>
+    <string name="submit_review">SUBMIT</string>
+    <string name="add_review">ADD REVIEW</string>
+    <string name="total_price">Total Price</string>
+    <string name="checkout">CheckOut</string>
+    <string name="search_hint">Search Here</string>
+</resources>

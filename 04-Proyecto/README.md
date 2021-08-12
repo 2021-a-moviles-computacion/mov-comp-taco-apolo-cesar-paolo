@@ -21,6 +21,7 @@
 ### BOSQUEJO BASE DE DATOS NO RELACIONALES 
 #### FIREBASE - FIRESTORE
 
-![image](https://user-images.githubusercontent.com/34403342/128249117-6f5a1730-efa9-41e1-a1f5-8bf6f5b8a364.png)
+![image](https://user-images.githubusercontent.com/34403342/129267141-3f8f5d7d-7b18-4d9c-9c7c-bfe5ae5625da.png)
+
 
 

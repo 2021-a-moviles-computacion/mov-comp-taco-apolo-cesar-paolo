@@ -25,7 +25,7 @@
                 android:drawableStart="@drawable/ic_baseline_menu"
                 android:drawablePadding="15dp"
                 android:fontFamily="serif"
-                android:text="amazon.in"
+                android:text="Amazon"
                 android:textColor="@android:color/black"
                 android:textSize="22sp" />
 

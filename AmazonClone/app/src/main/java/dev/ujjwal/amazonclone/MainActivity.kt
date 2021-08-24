@@ -28,6 +28,8 @@ class MainActivity : AppCompatActivity() {
             adapter = ItemList2Adapter()
             layoutManager = LinearLayoutManager(context, LinearLayoutManager.HORIZONTAL, false)
         }
+
+        val mar_rv = findViewById<Button>(R.id.btn_login)
     }
 
     private fun fetchSliderItemList(): List<String> {

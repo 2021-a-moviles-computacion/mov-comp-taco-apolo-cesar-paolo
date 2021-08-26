@@ -7,6 +7,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.widget.Button
+import android.widget.TextView
 import com.example.firebase_uno.dto.FirestoreUsuarioDTO
 import com.firebase.ui.auth.AuthUI
 import com.firebase.ui.auth.IdpResponse
@@ -114,6 +115,17 @@ class MainActivity : AppCompatActivity() {
 
             }
         }
+    }
+
+    fun setearBienvenida(){
+        val tv_bienvenida = findViewById<TextView>(R.id.tv_bienvienida)
+
+        if (BAuthUsuario.usuario != null){
+            tv_bienvenida.text = "Bienvenido ${BAuthUsuario.usuario?.email}"
+        }else{
+            tv_bienvenida.text = "Ingresa al aplicativo"
+        }
+
     }
 
     fun registrarUsuarioPrimeraVez(usuario: IdpResponse){

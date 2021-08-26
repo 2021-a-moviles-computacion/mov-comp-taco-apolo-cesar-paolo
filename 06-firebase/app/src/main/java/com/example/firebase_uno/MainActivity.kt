@@ -7,6 +7,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.widget.Button
+import com.example.firebase_uno.dto.FirestoreUsuarioDTO
 import com.firebase.ui.auth.AuthUI
 import com.firebase.ui.auth.IdpResponse
 import com.google.firebase.auth.FirebaseAuth
@@ -67,6 +68,7 @@ class MainActivity : AppCompatActivity() {
                             registrarUsuarioPrimeraVez(usuario)
                         }else{
                             Log.i("firebase-login","Antiguo Usuario")
+                            setearUsuarioFirebase()
                         }
                     }
 
@@ -78,19 +80,59 @@ class MainActivity : AppCompatActivity() {
 
     }
 
+    fun setearUsuarioFirebase(){
+        val instanceAuth = FirebaseAuth.getInstance()
+        val usrLocal = instanceAuth.currentUser
+        if (usrLocal != null){
+            if (usrLocal.email != null){
+
+                val db = Firebase.firestore
+
+                val referencia = db
+                    .collection("usuario")
+                    .document(usrLocal.email.toString())// /usuario/a@....com
+
+                referencia
+                    .get()
+                    .addOnSuccessListener {
+                        val usrCargado: FirestoreUsuarioDTO? =
+                            it.toObject(FirestoreUsuarioDTO::class.java)
+                        if (usrCargado != null){
+                          BAuthUsuario.usuario = BUsuarioFirebase(
+                              usrCargado.uid,
+                              usrCargado.email,
+                              usrCargado.roles
+                          )
+                        }
+                        //BAuthUsuario.usuario = usrCargado
+                        Log.i("firebase-firestore", "Usuario cargado")
+
+                    }
+                    .addOnFailureListener{
+                        Log.i("firebsae-firestore", "Fallo cargar usuario")
+                    }
+
+            }
+        }
+    }
+
     fun registrarUsuarioPrimeraVez(usuario: IdpResponse){
         val userLogueado = FirebaseAuth
             .getInstance()
             .currentUser
+
+        val idUser = usuario.email
+
         if (usuario.email != null && userLogueado != null){
             //roles: ["usuario", "admin"]
             val db = Firebase.firestore
             val rolesUser = arrayListOf("usuario")
             val nuevoUser = hashMapOf<String, Any>(
                 "roles" to rolesUser,
-                "uid" to userLogueado.uid
+                "uid" to userLogueado.uid,
+                "email" to idUser.toString()
             )
-            val idUser = usuario.email
+
 
             db.collection("usuario")
                 // UID por default del firebase
@@ -100,6 +142,7 @@ class MainActivity : AppCompatActivity() {
                 .set(nuevoUser)
                 .addOnSuccessListener {
                     Log.i("firebase-firestore","Se creo Usuario")
+                    setearUsuarioFirebase()
                 }
                 .addOnFailureListener {
                     Log.i("firebase-firestore", "falloooo")

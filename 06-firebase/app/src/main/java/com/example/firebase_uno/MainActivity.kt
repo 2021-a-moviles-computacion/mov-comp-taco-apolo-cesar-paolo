@@ -6,6 +6,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import android.view.View
 import android.widget.Button
 import android.widget.TextView
 import com.example.firebase_uno.dto.FirestoreUsuarioDTO
@@ -29,6 +30,11 @@ class MainActivity : AppCompatActivity() {
             llamarLoginUsuario()
         }
 
+        val btnLogout = findViewById<Button>(R.id.btn_logout)
+
+        btnLogout.setOnClickListener {
+            logOut()
+        }
 
     }
 
@@ -104,6 +110,7 @@ class MainActivity : AppCompatActivity() {
                               usrCargado.email,
                               usrCargado.roles
                           )
+                            setearBienvenida()
                         }
                         //BAuthUsuario.usuario = usrCargado
                         Log.i("firebase-firestore", "Usuario cargado")
@@ -115,17 +122,6 @@ class MainActivity : AppCompatActivity() {
 
             }
         }
-    }
-
-    fun setearBienvenida(){
-        val tv_bienvenida = findViewById<TextView>(R.id.tv_bienvienida)
-
-        if (BAuthUsuario.usuario != null){
-            tv_bienvenida.text = "Bienvenido ${BAuthUsuario.usuario?.email}"
-        }else{
-            tv_bienvenida.text = "Ingresa al aplicativo"
-        }
-
     }
 
     fun registrarUsuarioPrimeraVez(usuario: IdpResponse){
@@ -165,5 +161,34 @@ class MainActivity : AppCompatActivity() {
             Log.i("firebase-login", "ERROR")
         }
     }
+
+    fun setearBienvenida(){
+        val tv_bienvenida = findViewById<TextView>(R.id.tv_bienvienida)
+        val btnLOGIN = findViewById<Button>(R.id.btn_login)
+        val btnLOGOUT = findViewById<Button>(R.id.btn_logout)
+
+        if (BAuthUsuario.usuario != null){
+            tv_bienvenida.text = "Bienvenido ${BAuthUsuario.usuario?.email}"
+            btnLOGIN.visibility = View.INVISIBLE
+            btnLOGOUT.visibility = View.VISIBLE
+        }else{
+            tv_bienvenida.text = "Ingresa al aplicativo"
+            btnLOGIN.visibility = View.VISIBLE
+            btnLOGOUT.visibility = View.INVISIBLE
+        }
+
+    }
+
+    fun logOut(){
+        AuthUI
+            .getInstance()
+            .signOut(this)
+            .addOnCompleteListener{
+                BAuthUsuario.usuario = null
+                setearBienvenida()
+            }
+    }
+
+
 
 }

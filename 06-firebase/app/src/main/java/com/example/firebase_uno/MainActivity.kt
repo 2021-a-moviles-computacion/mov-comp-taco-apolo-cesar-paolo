@@ -36,6 +36,13 @@ class MainActivity : AppCompatActivity() {
             logOut()
         }
 
+        val btnCProducto = findViewById<Button>(R.id.btn_producto)
+
+        btnCProducto.setOnClickListener {
+            val intent = Intent(this, CProducto::class.java)
+            startActivity(intent)
+        }
+
     }
 
     fun llamarLoginUsuario(){
@@ -166,15 +173,18 @@ class MainActivity : AppCompatActivity() {
         val tv_bienvenida = findViewById<TextView>(R.id.tv_bienvienida)
         val btnLOGIN = findViewById<Button>(R.id.btn_login)
         val btnLOGOUT = findViewById<Button>(R.id.btn_logout)
+        val btnProducto = findViewById<Button>(R.id.btn_producto)
 
         if (BAuthUsuario.usuario != null){
             tv_bienvenida.text = "Bienvenido ${BAuthUsuario.usuario?.email}"
             btnLOGIN.visibility = View.INVISIBLE
             btnLOGOUT.visibility = View.VISIBLE
+            btnProducto.visibility = View.VISIBLE
         }else{
             tv_bienvenida.text = "Ingresa al aplicativo"
             btnLOGIN.visibility = View.VISIBLE
             btnLOGOUT.visibility = View.INVISIBLE
+            btnProducto.visibility = View.INVISIBLE
         }
 
     }

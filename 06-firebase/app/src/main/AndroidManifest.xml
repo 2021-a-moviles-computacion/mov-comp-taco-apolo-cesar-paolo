@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.FIREBASE_UNO">
-        <activity android:name=".CProducto"></activity>
+        <activity android:name=".DRestaurante"></activity>
+        <activity android:name=".CProducto" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

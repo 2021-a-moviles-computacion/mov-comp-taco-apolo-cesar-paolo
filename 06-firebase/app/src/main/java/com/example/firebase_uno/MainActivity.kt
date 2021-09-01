@@ -50,6 +50,13 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        val btnEOrdenes = findViewById<Button>(R.id.btn_ordenes)
+
+        btnEOrdenes.setOnClickListener {
+            val intent = Intent(this, EOrdenes::class.java)
+            startActivity(intent)
+        }
+
     }
 
     fun llamarLoginUsuario(){
@@ -182,6 +189,7 @@ class MainActivity : AppCompatActivity() {
         val btnLOGOUT = findViewById<Button>(R.id.btn_logout)
         val btnProducto = findViewById<Button>(R.id.btn_producto)
         val btnRest = findViewById<Button>(R.id.btn_restaurante)
+        val btnOrder = findViewById<Button>(R.id.btn_ordenes)
 
         if (BAuthUsuario.usuario != null){
             tv_bienvenida.text = "Bienvenido ${BAuthUsuario.usuario?.email}"
@@ -189,13 +197,15 @@ class MainActivity : AppCompatActivity() {
             btnLOGOUT.visibility = View.VISIBLE
             btnProducto.visibility = View.VISIBLE
             btnRest.visibility = View.VISIBLE
+            btnOrder.visibility = View.VISIBLE
 
         }else{
             tv_bienvenida.text = "Ingresa al aplicativo"
             btnLOGIN.visibility = View.VISIBLE
             btnLOGOUT.visibility = View.INVISIBLE
             btnProducto.visibility = View.INVISIBLE
-            btnRest.visibility = View.VISIBLE
+            btnRest.visibility = View.INVISIBLE
+            btnOrder.visibility = View.INVISIBLE
         }
 
     }

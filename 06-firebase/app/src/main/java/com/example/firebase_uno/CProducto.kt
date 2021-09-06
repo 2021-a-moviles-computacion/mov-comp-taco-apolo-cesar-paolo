@@ -22,7 +22,7 @@ class CProducto : AppCompatActivity() {
         val editTextPrecio = findViewById<EditText>(R.id.et_precioProd)
         val nuevoProducto = hashMapOf<String, Any>(
             "nombre" to editTextNombre.text.toString(),
-            "precio" to editTextPrecio.text.toString()
+            "precio" to editTextPrecio.text.toString().toDouble()
         )
         val db = Firebase.firestore
         val referencia = db.collection("producto")

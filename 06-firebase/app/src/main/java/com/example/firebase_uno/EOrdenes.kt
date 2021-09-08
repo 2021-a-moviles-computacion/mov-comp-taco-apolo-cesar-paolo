@@ -178,6 +178,7 @@ class EOrdenes : AppCompatActivity() {
             )
 
             addItemsListView(orden,lvProductsadapter)
+            etProdAmount.text.clear()
 
         }
 
@@ -185,7 +186,21 @@ class EOrdenes : AppCompatActivity() {
 
         completeorderBtn
             .setOnClickListener {
-                Log.i("Orden", "Productos añadidos: $arrayOrder")
+                if (lvProducts != null){
+                    Log.i("Orden", "Productos añadidos: $arrayOrder")
+                    Toast.makeText(
+                        this,
+                        "Orden realizada",
+                        Toast.LENGTH_SHORT
+                    ).show()
+                }else{
+                    Toast.makeText(
+                        this,
+                        "Orden vacía",
+                        Toast.LENGTH_SHORT
+                    ).show()
+                }
+
             }
 
     }

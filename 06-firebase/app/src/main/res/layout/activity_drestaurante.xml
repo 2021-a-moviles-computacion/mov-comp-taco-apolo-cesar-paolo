@@ -29,4 +29,25 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.325" />
+
+    <Button
+        android:id="@+id/btn_datos_prueba"
+        android:layout_width="167dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="32dp"
+        android:text="Datos prueba"
+        app:layout_constraintEnd_toEndOf="@+id/btn_crear_restaurante"
+        app:layout_constraintStart_toStartOf="@+id/btn_crear_restaurante"
+        app:layout_constraintTop_toBottomOf="@+id/btn_crear_restaurante" />
+
+    <Button
+        android:id="@+id/btn_comsultar"
+        android:layout_width="166dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="48dp"
+        android:text="Consultar"
+        app:layout_constraintEnd_toEndOf="@+id/btn_datos_prueba"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/btn_datos_prueba"
+        app:layout_constraintTop_toBottomOf="@+id/btn_datos_prueba" />
 </androidx.constraintlayout.widget.ConstraintLayout>

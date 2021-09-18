@@ -23,7 +23,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="56dp"
-        android:text="EXAMEN 1B MÓVILES"
+        android:text="EXAMEN 2B MÓVILES"
         android:textColor="@color/black"
         android:textSize="25dp"
         android:textStyle="bold"

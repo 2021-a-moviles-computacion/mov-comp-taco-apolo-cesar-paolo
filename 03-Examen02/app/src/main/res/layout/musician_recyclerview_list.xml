@@ -65,13 +65,20 @@
     <Button
         android:id="@+id/deleteMusicianButton"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textStyle="italic"
-        android:text="Eliminar"
-        android:backgroundTint="@color/teal_700"
+        android:layout_height="62dp"
         android:layout_gravity="center"
+        android:backgroundTint="@color/teal_700"
         android:gravity="center"
-        />
+        android:text="@string/eliminar"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/btn_mapa"
+        android:layout_width="wrap_content"
+        android:layout_height="62dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:text="@string/mapa" />
 
 
 </LinearLayout>

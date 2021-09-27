@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Examen02</string>
+    <string name="ubicaci_n_del_musico">UBICACIÓN DEL MUSICO</string>
+    <string name="ver_m_sicos">Ver músicos</string>
+    <string name="bandas">BandaS</string>
+    <string name="examen_2b_m_viles">EXAMEN 2B MÓVILES</string>
+    <string name="m_sicos">músicoS</string>
+    <string name="c_sar_paolo_taco_apolo">César Paolo Taco Apolo</string>
+</resources>

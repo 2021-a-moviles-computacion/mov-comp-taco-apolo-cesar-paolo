@@ -2,6 +2,7 @@ package dev.ujjwal.amazonclone
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Button
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.smarteist.autoimageslider.SliderAnimations
 import kotlinx.android.synthetic.main.activity_main.*
@@ -29,7 +30,7 @@ class MainActivity : AppCompatActivity() {
             layoutManager = LinearLayoutManager(context, LinearLayoutManager.HORIZONTAL, false)
         }
 
-        val mar_rv = findViewById<Button>(R.id.btn_login)
+//        val mar_rv = findViewById<Button>(R.id.btn_login)
     }
 
     private fun fetchSliderItemList(): List<String> {

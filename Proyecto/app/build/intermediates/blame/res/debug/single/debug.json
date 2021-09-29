@@ -1,0 +1,526 @@
+[
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_play.xml.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\drawable\\ic_play.xml"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\font_poppins_medium.ttf.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\font\\poppins_medium.ttf"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_repeat.xml.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\drawable\\ic_repeat.xml"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_search.xml.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\layout\\fragment_search.xml"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\drawable_artist_btn.jpg.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\drawable\\artist_btn.jpg"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic__settings2.xml.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\drawable\\ic__settings2.xml"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_play_button_white.xml.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\drawable\\ic_play_button_white.xml"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tendencias.png.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\drawable\\tendencias.png"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_pause.xml.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\drawable\\ic_pause.xml"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\layout_list_item.xml.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\layout\\list_item.xml"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_microphone_black.xml.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\drawable\\ic_microphone_black.xml"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_queue.xml.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\drawable\\ic_queue.xml"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\drawable_recently.png.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\drawable\\recently.png"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_song.xml.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\layout\\fragment_song.xml"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic__plus.xml.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\drawable\\ic__plus.xml"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\layout_toolbar.xml.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\layout\\toolbar.xml"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\drawable_circle_drawable.xml.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\drawable\\circle_drawable.xml"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic__962b4b9495c7d5510d4b9f9e2e866fb.xml.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\drawable\\ic__962b4b9495c7d5510d4b9f9e2e866fb.xml"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_skip_previous.png.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\drawable-mdpi\\ic_skip_previous.png"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher_foreground.png.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\drawable_colors_spotify.PNG.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\drawable\\colors_spotify.PNG"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\layout_swipe_item.xml.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\layout\\swipe_item.xml"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_next.xml.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\drawable\\ic_next.xml"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_skip.png.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\drawable-xhdpi\\ic_skip.png"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\drawable_item_welcome_image.PNG.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\drawable\\item_welcome_image.PNG"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_libreria_genero.xml.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\layout\\fragment_libreria_genero.xml"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\drawable_clasica.png.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\drawable\\clasica.png"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_settings.xml.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\drawable\\ic_settings.xml"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic__homefine.xml.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\drawable\\ic__homefine.xml"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\layout-land_fragment_song.xml.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\layout-land\\fragment_song.xml"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\font_poppins_black.ttf.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\font\\poppins_black.ttf"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\drawable_hip_hop.PNG.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\drawable\\hip_hop.PNG"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\drawable_metal.png.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\drawable\\metal.png"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_inbox_24.xml.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\drawable\\ic_baseline_inbox_24.xml"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\drawable_playlist_btn.jpg.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\drawable\\playlist_btn.jpg"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_backtime.xml.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\drawable\\ic_backtime.xml"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_image.xml.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\drawable\\ic_image.xml"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_popular.xml.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\layout\\item_popular.xml"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_playlist.xml.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\layout\\item_playlist.xml"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_create_account.xml.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\drawable\\btn_create_account.xml"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\drawable_jj.png.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\drawable\\jj.png"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_home.xml.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\drawable\\ic_home.xml"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\drawable_soul.png.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\drawable\\soul.png"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_home_layout.xml.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\layout\\item_home_layout.xml"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_skip.png.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\drawable-mdpi\\ic_skip.png"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\drawable_perfil_img.png.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\drawable\\perfil_img.png"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_skip.png.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\drawable-xxhdpi\\ic_skip.png"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_deny.xml.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\drawable\\ic_deny.xml"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_search.xml.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\layout\\item_search.xml"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_finesearch.xml.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\drawable\\ic_finesearch.xml"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\drawable_album_item.PNG.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\drawable\\album_item.PNG"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher_foreground.png.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic__inbox2.xml.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\drawable\\ic__inbox2.xml"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\drawable_cumbia.png.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\drawable\\cumbia.png"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_ic_skip.xml.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\drawable-anydpi\\ic_skip.xml"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_inicio.xml.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\layout\\activity_inicio.xml"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\drawable_album_bad_bunny.PNG.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\drawable\\album_bad_bunny.PNG"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\drawable_gradient.xml.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\drawable\\gradient.xml"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\drawable_artist_img.png.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\drawable\\artist_img.png"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_skip_previous.png.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\drawable-hdpi\\ic_skip_previous.png"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\layout_actividad_principal.xml.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\layout\\actividad_principal.xml"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_library.xml.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\layout\\fragment_library.xml"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rock.PNG.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\drawable\\rock.PNG"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_library.xml.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\drawable\\ic_library.xml"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\drawable_albums_btn.jpg.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\drawable\\albums_btn.jpg"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\drawable_romance.png.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\drawable\\romance.png"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_home.xml.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_speaker.xml.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\drawable\\ic_speaker.xml"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\drawable_search_bar.jpg.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\drawable\\search_bar.jpg"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_libreria.xml.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\layout\\item_libreria.xml"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_play_button.xml.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\drawable\\ic_play_button.xml"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_login.xml.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\drawable\\btn_login.xml"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic__back.xml.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\drawable\\ic__back.xml"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_playlist.xml.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\drawable\\ic_playlist.xml"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\drawable_main_logo_white.png.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\drawable\\main_logo_white.png"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_reproductor.xml.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\layout\\activity_reproductor.xml"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_skip_previous.png.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\drawable-xhdpi\\ic_skip_previous.png"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\drawable_javier_solis.PNG.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\drawable\\javier_solis.PNG"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_welcome.xml.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\layout\\item_welcome.xml"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\layout_login.xml.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\layout\\login.xml"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_previous.xml.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\drawable\\ic_previous.xml"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\drawable_podcasts.png.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\drawable\\podcasts.png"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_microphone.xml.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\drawable\\ic_microphone.xml"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\menu_top_menu.xml.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\menu\\top_menu.xml"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_skip.png.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\drawable-hdpi\\ic_skip.png"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\drawable_creado_para_ti.png.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\drawable\\creado_para_ti.png"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\drawable_latino.PNG.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\drawable\\latino.PNG"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_down.xml.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\drawable\\ic_down.xml"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_launcher_foreground.png.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bad_bunny.png.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\drawable\\bad_bunny.png"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_artist.xml.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\layout\\fragment_artist.xml"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_shuffle.xml.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\drawable\\ic_shuffle.xml"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_ic_skip_previous.xml.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\drawable-anydpi\\ic_skip_previous.xml"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\drawable_jump_back_in.PNG.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\drawable\\jump_back_in.PNG"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_share.xml.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\drawable\\ic_share.xml"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_album.xml.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\layout\\item_album.xml"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pop.PNG.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\drawable\\pop.PNG"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic__heart2.xml.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\drawable\\ic__heart2.xml"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\font_poppins_thin.ttf.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\font\\poppins_thin.ttf"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\drawable_spotify_logo.png.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\drawable\\spotify_logo.png"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\drawable_yonaguni.PNG.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\drawable\\yonaguni.PNG"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_music.xml.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\drawable\\ic_music.xml"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_heart.xml.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\drawable\\ic_heart.xml"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\navigation_nav_graph.xml.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\navigation\\nav_graph.xml"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_artist.xml.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\layout\\item_artist.xml"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\drawable_hip_hop_item.PNG.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\drawable\\hip_hop_item.PNG"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\menu_bottom_navigation.xml.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\menu\\bottom_navigation.xml"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_detalles_home.xml.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\layout\\fragment_detalles_home.xml"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\font_poppins_regular.ttf.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\font\\poppins_regular.ttf"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_search.xml.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\drawable\\ic_search.xml"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_recently_played.xml.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\layout\\item_recently_played.xml"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_skip_previous.png.flat",
+        "source": "D:\\7mo\\AppMov\\Repos\\mov-comp-taco-apolo-cesar-paolo\\Spotify_final\\app\\src\\main\\res\\drawable-xxhdpi\\ic_skip_previous.png"
+    }
+]
